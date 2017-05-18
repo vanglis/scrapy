@@ -28,3 +28,12 @@ http://scrapy.org
 - cssselect==1.0.1
 - w3lib==1.17.0
 - PyDispatcher==2.0.5
+###### 爬虫学习资料整理：
+模拟登陆
+https://mp.weixin.qq.com/s/u5cSZuKawG9MghUsuKPDTw
+普通反爬虫机制的应对策略
+http://python.jobbole.com/87669/
+使用Scrapy构建一个网络爬虫
+http://python.jobbole.com/87243/
+利用pytesser识别简单图形验证码
+https://my.oschina.net/jhao104/blog/647326?fromerr=xJxwPW5X
