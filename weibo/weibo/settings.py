@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for DataParse project
+# Scrapy settings for weibo project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,17 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'DataParse'
+BOT_NAME = 'weibo'
 
-SPIDER_MODULES = ['DataParse.spiders']
-NEWSPIDER_MODULE = 'DataParse.spiders'
+SPIDER_MODULES = ['weibo.spiders']
+NEWSPIDER_MODULE = 'weibo.spiders'
 
+#weibo登录用户名、密码
+LOGIN_USER = '***'
+LOGIN_PWD = '***'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'DataParse (+http://www.yourdomain.com)'
+#USER_AGENT = 'weibo (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -47,13 +50,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'DataParse.middlewares.DataparseSpiderMiddleware': 543,
+#    'weibo.middlewares.WeiboSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'DataParse.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'weibo.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +68,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'DataParse.pipelines.DataparsePipeline': 300,
+#    'weibo.pipelines.WeiboPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

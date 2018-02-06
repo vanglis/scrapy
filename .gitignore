@@ -2,3 +2,7 @@
 
 # The bytecode file:
 *.py[cod]
+*.html
+*.yaml
+*.log
+#settings.py
