@@ -5,4 +5,5 @@
 *.html
 *.yaml
 *.log
-#settings.py
+settings.py
+.gitignore

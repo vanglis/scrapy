@@ -15,8 +15,8 @@ SPIDER_MODULES = ['weibo.spiders']
 NEWSPIDER_MODULE = 'weibo.spiders'
 
 #weibo登录用户名、密码
-LOGIN_USER = '***'
-LOGIN_PWD = '***'
+LOGIN_USER = '****'
+LOGIN_PWD = '****'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'weibo (+http://www.yourdomain.com)'
