@@ -1,9 +1,7 @@
 .idea/
-
-# The bytecode file:
+.gitignore
 *.py[cod]
 *.html
 *.yaml
 *.log
 settings.py
-.gitignore
